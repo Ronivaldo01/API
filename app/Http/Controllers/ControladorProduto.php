@@ -79,7 +79,7 @@ class ControladorProduto extends Controller
         $prod->save();
         return json_encode($prod); 
             }
-         return "Deu merda!";
+         return "Deu Erro!";
     }
 
     /**
